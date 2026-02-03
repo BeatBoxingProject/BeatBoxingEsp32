@@ -1,4 +1,4 @@
-# 📸 Robust ESP32 Camera MJPEG Stream Server
+# 📸 ESP32 Camera MJPEG Stream Server
 
 This project transforms an ESP32 (with a connected camera module, e.g., OV2640) into a stable MJPEG video stream server accessible over a local network. The code is structured using the PlatformIO framework for clean separation of concerns and robust performance.
 
