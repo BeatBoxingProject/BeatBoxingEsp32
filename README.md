@@ -2,16 +2,12 @@
 
 This project transforms an ESP32 (with a connected camera module, e.g., OV2640) into a stable MJPEG video stream server accessible over a local network. The code is structured using the PlatformIO framework for clean separation of concerns and robust performance.
 
----
-
 ## ✨ Features
 
 * **Dynamic Configuration:** Adjust video **resolution**, **quality**, **brightness**, and **contrast** on the fly using simple URL query parameters, even while streaming.
 * **Unique Device Identity:** Uses PlatformIO environments to automatically assign unique **Hostnames** and **IP addresses** to multiple devices during a single upload.
 * **Robust Connectivity:** Uses static IP addressing and WiFi event handlers for reliable, automatic network reconnection.
 * **Clean Design:** Modular C++ structure using separate files for WiFi, Camera Initialization, and Server logic.
-
----
 
 ## 🛠️ Project Setup
 
